@@ -7,10 +7,23 @@
 
 import Foundation
 
-class CityViewModel {
-    var cities: [CityTimeZone] = [
-       CityTimeZone(city: "Napoli", country: "Italia", timezone: "12.00"),
-       CityTimeZone(city: "Belfast", country: "Irlanda", timezone: "11.00"),
-       CityTimeZone(city: "New York", country: "America", timezone: "18.00")
+class CityViewModel: ObservableObject {
+    @Published var cities: [CityTimeZone] = [
+        CityTimeZone(city: "Naples", country: "Italy", timezone: 0, saved: true),
+        CityTimeZone(city: "Dublin", country: "Ireland", timezone: -1, saved: false),
+        CityTimeZone(city: "New York", country: "USA", timezone: -6, saved: false),
+        CityTimeZone(city: "Rome", country: "Italy", timezone: 0, saved: false),
+        CityTimeZone(city: "Moscow", country: "Russia", timezone: 2, saved: false),
+        CityTimeZone(city: "Melbourne", country: "Australia", timezone: +10, saved: false),
+        CityTimeZone(city: "San Diego", country: "USA", timezone: -9, saved: false),
+        CityTimeZone(city: "Shanghai", country: "China mainland", timezone: +7, saved: false),
+        CityTimeZone(city: "Monterrey", country: "Mexico", timezone: -7, saved: false),
+        CityTimeZone(city: "Marrakech", country: "Morocco", timezone: 0, saved: false),
+        CityTimeZone(city: "Dubai", country: "UAE", timezone: +3, saved: false)
+        
     ]
+    
 }
+//observable Macro
+
+var cityModel = CityViewModel()

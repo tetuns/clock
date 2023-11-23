@@ -9,16 +9,12 @@ import Foundation
 
 struct CityTimeZone: Identifiable {
     
-    var city: String = "City Name"
-    var country: String = "Country Name"
-    var timezone: String = "Time Zone"
+    var city: String
+    var country: String
+    var timezone: Int
     var id = UUID()
-
-    init(city: String, country: String, timezone: String, id: UUID = UUID()) {
-        self.city = city
-        self.country = country
-        self.timezone = timezone
-
-    }
+    var saved: Bool
+    var showTime = ""
+    
 }
 

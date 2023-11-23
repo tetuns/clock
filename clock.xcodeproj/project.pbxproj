@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		745326FA2B061DDE008D5989 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745326F92B061DDE008D5989 /* WorldClockView.swift */; };
+		745326FC2B061E3F008D5989 /* AlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745326FB2B061E3F008D5989 /* AlarmsView.swift */; };
+		745326FE2B061F9E008D5989 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745326FD2B061F9E008D5989 /* StopWatchView.swift */; };
+		745327002B061FF2008D5989 /* TimersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745326FF2B061FF2008D5989 /* TimersView.swift */; };
+		745327022B075C66008D5989 /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745327012B075C66008D5989 /* StopWatchViewModel.swift */; };
 		74E752642B04D32D0024F0DC /* clockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E752632B04D32D0024F0DC /* clockApp.swift */; };
 		74E752662B04D32D0024F0DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E752652B04D32D0024F0DC /* ContentView.swift */; };
 		74E752682B04D32F0024F0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E752672B04D32F0024F0DC /* Assets.xcassets */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		745326F92B061DDE008D5989 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		745326FB2B061E3F008D5989 /* AlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsView.swift; sourceTree = "<group>"; };
+		745326FD2B061F9E008D5989 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		745326FF2B061FF2008D5989 /* TimersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersView.swift; sourceTree = "<group>"; };
+		745327012B075C66008D5989 /* StopWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel.swift; sourceTree = "<group>"; };
 		74E752602B04D32D0024F0DC /* clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E752632B04D32D0024F0DC /* clockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockApp.swift; sourceTree = "<group>"; };
 		74E752652B04D32D0024F0DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +51,11 @@
 		74E752572B04D32D0024F0DC = {
 			isa = PBXGroup;
 			children = (
+				745327012B075C66008D5989 /* StopWatchViewModel.swift */,
+				745326FF2B061FF2008D5989 /* TimersView.swift */,
+				745326FD2B061F9E008D5989 /* StopWatchView.swift */,
+				745326FB2B061E3F008D5989 /* AlarmsView.swift */,
+				745326F92B061DDE008D5989 /* WorldClockView.swift */,
 				74E752752B04E8BE0024F0DC /* CityViewModel.swift */,
 				74E752732B04E7700024F0DC /* CityTimeZone.swift */,
 				74E752712B04E4030024F0DC /* clockModal.swift */,
@@ -150,7 +165,12 @@
 				74E752762B04E8BE0024F0DC /* CityViewModel.swift in Sources */,
 				74E752742B04E7700024F0DC /* CityTimeZone.swift in Sources */,
 				74E752722B04E4030024F0DC /* clockModal.swift in Sources */,
+				745327022B075C66008D5989 /* StopWatchViewModel.swift in Sources */,
+				745326FA2B061DDE008D5989 /* WorldClockView.swift in Sources */,
 				74E752642B04D32D0024F0DC /* clockApp.swift in Sources */,
+				745326FE2B061F9E008D5989 /* StopWatchView.swift in Sources */,
+				745327002B061FF2008D5989 /* TimersView.swift in Sources */,
+				745326FC2B061E3F008D5989 /* AlarmsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
